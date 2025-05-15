@@ -81,6 +81,8 @@ a {
 
 body{
     background-color: #59422E;
+    height: 200vh;
+    width: 100vw;
 }
 
 /*Header*/
