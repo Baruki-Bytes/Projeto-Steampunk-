@@ -80,7 +80,7 @@ a {
 }
 
 body{
-    background-color: #59422E;
+    background-color: rgb(89, 66, 46);
     height: 200vh;
     width: 100vw;
 }
@@ -156,7 +156,9 @@ body{
 /* Banner de fundo */
 
 .backgrund{
-    background-image: url('../img/backgrund.png');
+    background-image:
+    linear-gradient(to bottom, rgba(1,1,1,0) 90%, rgb(89, 66, 46)),   /* para colocar gradient*/
+    url('../img/backgrund.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -317,6 +319,102 @@ animation: piscar 3.5s infinite;
     position: relative;
     top: 331px;
     margin-left: 33%;
+    user-select: none;
 }
 
+/* invensões */
 
+.inven-menu{
+    position: relative;
+    top: 400px;
+    margin-left: 10%;
+    margin-top: 50px;
+    margin-right: 10%;
+}
+
+.img-text-inven{
+    display: flex;
+    align-items:center;
+}
+
+.ft-inven{
+    margin: 10px;
+    position: relative;
+    right: 50px;
+    opacity: 50%; 
+    transition: opacity 0.3s ease;
+}
+
+.ft-inven:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+    opacity: 100%;
+}
+
+.oculos{
+    text-align: left;
+    color: #fff;
+    font-size: 30px;
+    max-width: 1200px;
+}
+
+.text-retro-left{
+    color: var(--warning);
+    bottom: 40px;
+    position: relative;
+    right: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.subtext-retro{
+    position: relative;
+    bottom: 30px;
+}
+
+/* item a esquerda */
+
+.ft-inven2{
+    left: 40px;
+    margin: 10px;
+    position: relative;
+    opacity: 50%; 
+    transition: opacity 0.3s ease;
+}
+
+.ft-inven2:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+    opacity: 100%;
+}
+
+.oculos2{
+    text-align: right;
+    color: #fff;
+    font-size: 30px;
+    max-width: 1200px;
+}
+
+.text-retro-rigth{
+    color: var(--warning);
+    bottom: 40px;
+    position: relative;
+    left: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.subtext-retro-rigth{
+    position: relative;
+    bottom: 30px;
+}
+
+/* separador2*/
+
+.separador2{
+    display: flex;
+    position: relative;
+    top: 500px;
+    margin-left: 33%; 
+    user-select: none;
+}
+
+/* Museu */
